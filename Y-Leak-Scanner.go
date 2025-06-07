@@ -21,6 +21,7 @@ var KEYWORDS = map[string]string{
 	`app[-_]?token\s*[:=\"'\s]*\s*([a-zA-Z0-9_\-]{8,}[^'\":;\s,]*)`:      "High",
 	`map[-_]?box\s*[:=\"'\s]*\s*([a-zA-Z0-9_\-]{8,}[^'\":;\s,]*) `:       "High",
 	`private[-_]?token\s*[:=\"'\s]*\s*([a-zA-Z0-9_\-]{8,}[^'\":;\s,]*)`:  "High",
+	`api[-_]?key\s*[:=\"'\s]*\s*([a-zA-Z0-9_\-]{8,}[^'\":;\s,]*)`:        "High",
 }
 
 // Global counters for tracking lines and current URL index
