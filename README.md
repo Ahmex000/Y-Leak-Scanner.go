@@ -18,13 +18,7 @@
 ```bash
 git clone https://github.com/Ahmex000/Y-Leak-Scanner.go.git
 cd Y-Leak-Scanner.go
-go build -o Y-Leak-Scanner.go Y-Leak-Scanner.go.go
-```
-
-Or run it directly:
-
-```bash
-go run Y-Leak-Scanner.go.go -f urls.txt -t 10 -o output.txt
+go run Y-Leak-Scanner.go -f urls.txt -t 10 -o output.txt
 ```
 
 ![image](https://github.com/user-attachments/assets/f706d850-6ccd-4495-b060-a3ee1af47390)
