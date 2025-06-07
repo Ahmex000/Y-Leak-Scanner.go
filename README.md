@@ -1,10 +1,6 @@
-Here's the revised `README.md` with an added note encouraging users to expand the keyword list for better results:
+# Y-Leak-Scanner.go
 
----
-
-# Y-leakScanner
-
-**Y-leakScanner** is a high-performance, multi-threaded scanner written in Go that detects sensitive information leaks in HTTP responses using custom regex-based signatures.
+**Y-Leak-Scanner.go** is a high-performance, multi-threaded scanner written in Go that detects sensitive information leaks in HTTP responses using custom regex-based signatures.
 
 ## 🚀 Features
 
@@ -20,15 +16,15 @@ Here's the revised `README.md` with an added note encouraging users to expand th
 ### Clone and Build
 
 ```bash
-git clone https://github.com/yourusername/Y-leakScanner.git
-cd Y-leakScanner
-go build -o y-leakScanner Y-leakScanner.go
+git clone https://github.com/yourusername/Y-Leak-Scanner.go.git
+cd Y-Leak-Scanner.go
+go build -o Y-Leak-Scanner.go Y-Leak-Scanner.go.go
 ```
 
 Or run it directly:
 
 ```bash
-go run Y-leakScanner.go -f urls.txt -t 10 -o output.txt
+go run Y-Leak-Scanner.go.go -f urls.txt -t 10 -o output.txt
 ```
 
 ![image](https://github.com/user-attachments/assets/f706d850-6ccd-4495-b060-a3ee1af47390)
@@ -40,7 +36,7 @@ go run Y-leakScanner.go -f urls.txt -t 10 -o output.txt
 ### Basic Syntax
 
 ```bash
-./y-leakScanner -f urls.txt -t 10 -o results.txt
+./Y-Leak-Scanner.go -f urls.txt -t 10 -o results.txt
 ```
 
 ### Parameters
@@ -79,7 +75,7 @@ var KEYWORDS = map[string]string{
 }
 ```
 
-> **Note:** The effectiveness of Y-leakScanner depends heavily on the quality and variety of the regex patterns. **To improve detection coverage and get more results, you should expand the `KEYWORDS` list with additional patterns** tailored to your use case (e.g., API keys, secrets, credentials, etc.).
+> **Note:** The effectiveness of Y-Leak-Scanner.go depends heavily on the quality and variety of the regex patterns. **To improve detection coverage and get more results, you should expand the `KEYWORDS` list with additional patterns** tailored to your use case (e.g., API keys, secrets, credentials, etc.).
 
 ## 🧑‍💻 Author
 
@@ -89,6 +85,3 @@ var KEYWORDS = map[string]string{
 * 🐦 [X (Twitter)](https://x.com/Ahmex000)
 * 💼 [LinkedIn](https://linkedin.com/in/Ahmex000)
 
----
-
-Let me know if you want to turn this into a full GitHub project template with `LICENSE`, `.gitignore`, and `CONTRIBUTING.md`.
