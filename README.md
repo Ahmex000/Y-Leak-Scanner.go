@@ -16,7 +16,7 @@
 ### Clone and Build
 
 ```bash
-git clone https://github.com/yourusername/Y-Leak-Scanner.go.git
+git clone https://github.com/Ahmex000/Y-Leak-Scanner.go.git
 cd Y-Leak-Scanner.go
 go build -o Y-Leak-Scanner.go Y-Leak-Scanner.go.go
 ```
