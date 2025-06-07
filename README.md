@@ -1,3 +1,7 @@
+Here's the revised `README.md` with an added note encouraging users to expand the keyword list for better results:
+
+---
+
 # Y-leakScanner
 
 **Y-leakScanner** is a high-performance, multi-threaded scanner written in Go that detects sensitive information leaks in HTTP responses using custom regex-based signatures.
@@ -26,6 +30,7 @@ Or run it directly:
 ```bash
 go run Y-leakScanner.go -f urls.txt -t 10 -o output.txt
 ```
+
 ![image](https://github.com/user-attachments/assets/f706d850-6ccd-4495-b060-a3ee1af47390)
 
 > Ensure you have Go installed (version 1.16+ recommended)
@@ -74,7 +79,7 @@ var KEYWORDS = map[string]string{
 }
 ```
 
-You can modify or expand this list in the code to tailor detection patterns to your needs.
+> **Note:** The effectiveness of Y-leakScanner depends heavily on the quality and variety of the regex patterns. **To improve detection coverage and get more results, you should expand the `KEYWORDS` list with additional patterns** tailored to your use case (e.g., API keys, secrets, credentials, etc.).
 
 ## 🧑‍💻 Author
 
@@ -86,3 +91,4 @@ You can modify or expand this list in the code to tailor detection patterns to y
 
 ---
 
+Let me know if you want to turn this into a full GitHub project template with `LICENSE`, `.gitignore`, and `CONTRIBUTING.md`.
